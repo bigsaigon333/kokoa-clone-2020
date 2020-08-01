@@ -16,5 +16,5 @@ It starts from 2020-07-31
 - url: https://fontawesome.com/
 
 3. BEM: naming convention
-   https://scalablecss.com/bem-blocks-within-blocks/
-   http://getbem.com/
+- https://scalablecss.com/bem-blocks-within-blocks/ 
+- http://getbem.com/
