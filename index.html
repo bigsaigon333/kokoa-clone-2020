@@ -1,38 +1,84 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
 		<title>Welcome to Kokoa Clone</title>
 	</head>
 	<body>
 		<div class="status-bar">
 			<div class="status-bar__column">
 				<span>No Service</span>
-				<!-- To Do: Wifi Icon -->
+
+				<svg
+					class="status-bar__icon"
+					fill="none"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					viewBox="0 0 24 24"
+					stroke="currentColor"
+				>
+					<path
+						d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+					></path>
+				</svg>
 			</div>
 			<div class="status-bar__column">
 				<span>23:23</span>
 			</div>
 			<div class="status-bar__column">
+				<svg
+					class="status-bar__icon"
+					fill="none"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					viewBox="0 0 24 24"
+					stroke="currentColor"
+				>
+					<path
+						d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z"
+					></path>
+				</svg>
 				<span>99%</span>
-				<!-- Icon: battery -->
-				<!-- Icon: Thunderbolt -->
+				<i class="fas fa-battery-full"></i>
+				<i class="fas fa-bolt"></i>
 			</div>
 		</div>
 
 		<header class="welcome-header">
 			<h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-			<p class="welcome-header_description">
-				If you have a Kokoa Clone Account, log in with your email or phone
-				number.
+			<p class="welcome-header__description">
+				If you have a Kokoa Clone Account,
+			</p>
+			<p class="welcome-header__description">
+				log in with your email or phone number.
 			</p>
 		</header>
 
-		<form class="login-form">
-			<input type="text" name="username" id="" />
-			<input type="password" name="password" id="" />
-			<button class="login-form__login-btn">Log In</button>
-			<button class="loginform__signup-btn">Sign Up</button>
-			<a href="#">Find Kokoa Clone Account or Password</a>
+		<form class="login-form" method="GET" action="friends.html">
+			<input
+				class="login-form__input"
+				type="text"
+				name="username"
+				placeholder="Email or phone number"
+			/>
+			<input
+				class="login-form__input"
+				type="password"
+				name="password"
+				placeholder="Password"
+			/>
+			<button class="login-form__btn">Log In</button>
+			<button class="login-form__btn">Sign Up</button>
+			<a class="login-form__a" href="#">Find Kokoa Clone Account or Password</a>
 		</form>
+
+		<script
+			src="https://kit.fontawesome.com/6478f529f2.js"
+			crossorigin="anonymous"
+		></script>
 	</body>
 </html>
