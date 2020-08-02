@@ -4,6 +4,8 @@
 	align-items: center;
 	padding: 5px 3px;
 	font-size: 18px;
+	position: fixed;
+	width: 100%;
 }
 
 .status-bar__column {
@@ -26,6 +28,6 @@
 }
 .status-bar__icon,
 .fas {
-	width: 15px;
+	width: 18px;
 	margin: 0px 6px;
 }
