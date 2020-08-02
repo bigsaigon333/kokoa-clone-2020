@@ -6,6 +6,7 @@
 	font-size: 18px;
 	position: fixed;
 	width: 100%;
+	top: 0px;
 }
 
 .status-bar__column {
