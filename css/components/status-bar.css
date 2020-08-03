@@ -4,9 +4,10 @@
 	align-items: center;
 	padding: 5px 3px;
 	font-size: 18px;
-	position: fixed;
+	/* position: fixed;
 	width: 100%;
-	top: 0px;
+	top: 0px; */
+	box-sizing: border-box;
 }
 
 .status-bar__column {
@@ -17,6 +18,7 @@
 
 .status-bar__column:first-child {
 	justify-content: flex-start;
+	padding-left: 7px;
 }
 
 .status-bar__column:nth-child(2) {
@@ -27,8 +29,7 @@
 .status-bar__column:last-child {
 	justify-content: flex-end;
 }
-.status-bar__icon,
-.fas {
+.status-bar__icon {
 	width: 18px;
 	margin: 0px 6px;
 }

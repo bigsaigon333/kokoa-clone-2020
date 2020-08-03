@@ -1,6 +1,7 @@
 :root {
 	--yellow: #fae100;
 	--lightyellow: rgba(250, 225, 00, 0.7);
-	--gray: rgb(132, 132, 132);
-	--lightgray: rgba(132, 132, 132, 0.4);
+	--gray: rgb(220, 220, 220);
+	--lightgray: rgb(249, 249, 249);
+	--horizontal-space: 20px;
 }
