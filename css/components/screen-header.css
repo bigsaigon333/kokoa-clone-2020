@@ -13,8 +13,16 @@
 
 .screen-header__icons {
 	font-size: 1.5rem;
+	position: relative;
 }
 
 .screen-header__icons > i {
 	margin: 0px 10px;
+}
+
+.screen-header__icons > .ellipsis-dot {
+	width: 5px;
+	height: 5px;
+	top: -5px;
+	right: 3px;
 }

@@ -28,12 +28,12 @@
 }
 
 .ellipsis-dot {
-	width: 6px;
-	height: 6px;
+	width: 5px;
+	height: 5px;
 	background-color: rgb(255, 98, 41);
 	display: inline-block;
-	border-radius: 50px;
+	border-radius: 100%;
 	position: absolute;
 	top: 16px;
-	right: 8px;
+	right: 15px;
 }

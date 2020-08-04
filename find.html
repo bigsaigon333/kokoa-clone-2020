@@ -49,37 +49,76 @@
 		</div>
 
 		<header class="screen-header">
-			<h1 class="screen-header__title">Chats</h1>
+			<h1 class="screen-header__title">Find</h1>
 			<div class="screen-header__icons">
 				<!-- icon -->
 				<i class="fas fa-search"></i>
-				<i class="far fa-comment-dots"></i>
-				<i class="fas fa-music"></i>
+				<!-- <i class="far fa-comment-dots"></i>
+				<i class="fas fa-music"></i> -->
+				<span class="ellipsis-dot"></span>
 				<i class="fas fa-cog"></i>
 			</div>
 		</header>
 
 		<main class="main-screen">
-			<div class="user-component">
-				<div class="user-component__column">
-					<img
-						src="img/profile.jpg"
-						alt="the photo of me"
-						class="user-component__avatar"
-					/>
-					<div class="user-component__text">
-						<h4 class="user-component__name user-component__name--bold">
-							Danny Kim
-						</h4>
-						<h6 class="user-component__description">
-							Please check my Kakao Account Info
-						</h6>
-					</div>
+			<div class="find-icons">
+				<div class="find-icons__icon">
+					<i class="fas fa-qrcode fa-2x"></i>
+					<span>QR Code</span>
 				</div>
-				<div class="user-component__column">
-					<div class="user-component__addition">
-						<span>22:22</span>
-						<div class="badge">1</div>
+				<div class="find-icons__icon">
+					<i class="far fa-address-book fa-2x"></i>
+					<span>Add by Contacts</span>
+				</div>
+				<div class="find-icons__icon">
+					<i class="far fa-id-badge fa-2x"></i>
+					<span>Add by ID</span>
+				</div>
+				<div class="find-icons__icon">
+					<i class="far fa-envelope fa-2x"></i>
+					<span>Invite</span>
+				</div>
+			</div>
+
+			<div class="recommended-friends">
+				<h6 class="recommended-friends__title">
+					Recommended Friends
+				</h6>
+				<h5 class="recommended-friends__contents">
+					You have no recommended friends.
+				</h5>
+			</div>
+
+			<div class="open-chat">
+				<div class="open-chat__header">
+					<h4 class="open-chat__title">Open Chat</h4>
+					<span
+						>Go to Openchat Home
+						<i class="fas fa-chevron-right chevron--gray fa-sm"></i>
+					</span>
+				</div>
+				<div class="open-chat-post">
+					<div class="open-chat-post__column">
+						<h5 class="open-chat-post__title">#BTS</h5>
+						<h6 class="open-chat-post__hashtags">#bts#army#friends</h6>
+						<div class="open-chat-post__members">
+							<img
+								src="img/user_profile1.png"
+								alt="the photo of member who uploaded this"
+							/>
+							<span class="open-chat-post__member-count">802 members</span>
+							<div class="divider"></div>
+							<span class="open-chat-post__status">Active</span>
+						</div>
+					</div>
+					<div class="open-chat-post__column">
+						<div class="open-chat-post__photo">
+							<img src="img/love.jpg" alt="love_profile" />
+							<div class="open-chat-post__heart-count">
+								<i class="fas fa-heart fa-sm"></i>
+								<span>326</span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -94,8 +133,8 @@
 				</li>
 				<li class="nav-list__item">
 					<a href="chats.html">
-						<span class="nav-list__notification badge">1</span>
-						<i class="fas fa-2x fa-comment"></i>
+						<!-- <span class="nav-list__notification badge">1</span> -->
+						<i class="far fa-2x fa-comment"></i>
 					</a>
 				</li>
 				<li class="nav-list__item">

@@ -42,7 +42,7 @@
 
 .user-component__description {
 	margin-top: 6px;
-	color: rgb(180, 180, 180);
+	color: var(--gray-for-text);
 	font-size: 17px;
 }
 

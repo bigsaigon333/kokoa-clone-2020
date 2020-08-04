@@ -3,5 +3,7 @@
 	--lightyellow: rgba(250, 225, 00, 0.7);
 	--gray: rgb(220, 220, 220);
 	--lightgray: rgb(249, 249, 249);
+	--gray-for-text: rgb(160, 160, 160);
 	--horizontal-space: 20px;
+	--main-border: 1px solid rgb(213, 213, 213);
 }
