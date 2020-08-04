@@ -19,16 +19,20 @@
 	margin-right: 10px;
 }
 
-.friends-display-link__chevron {
+.chevron--gray {
 	color: rgb(213, 213, 213);
 	margin-left: 10px;
 }
+.friends-screen {
+	padding: var(--horizontal-space);
+}
 
-.channel-screen {
+.friends-screen__channel-header {
 	display: flex;
 	justify-content: space-between;
-	margin: 0px var(--horizontal-space);
-	padding: 10px 0px;
+	/* margin: 0px var(--horizontal-space); */
+	margin: 20px 0px 5px 0px;
+	padding: 15px 0px;
 	border-top: 1px solid rgb(213, 213, 213);
 	color: rgb(180, 180, 180);
 }
