@@ -1,0 +1,8 @@
+.suggestions-screen {
+	border-top: 1px solid var(--gray);
+	/* margin-top: 20px; */
+	padding: 20px 0px;
+}
+.suggestions-screen__title {
+	font-size: 17px;
+}

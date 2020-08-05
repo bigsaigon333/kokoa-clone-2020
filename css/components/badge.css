@@ -1,3 +1,7 @@
+.badge-container {
+	position: relative;
+}
+
 .badge {
 	width: 18px;
 	height: 18px;
@@ -7,6 +11,20 @@
 	align-items: center;
 	padding: 3px;
 	text-align: center;
-	background-color: rgb(255, 98, 41);
+	background-color: var(--badge-color);
 	color: white;
+}
+
+.badge--only-border {
+	background-color: inherit;
+	color: var(--badge-color);
+	border: 1.5px solid var(--badge-color);
+	width: 9px;
+	height: 9px;
+	opacity: 0.7;
+}
+.badge--more {
+	font-weight: 700;
+	font-size: 16px;
+	margin: 0px 5px;
 }

@@ -49,20 +49,18 @@
 		</div>
 
 		<header class="screen-header">
-			<h1 class="screen-header__title">Friends</h1>
+			<h1 class="screen-header__title">More</h1>
 			<div class="screen-header__icons">
 				<!-- icon -->
 				<i class="fas fa-search"></i>
+				<!-- <i class="far fa-comment-dots"></i> -->
 				<i class="fas fa-music"></i>
-				<i class="fas fa-cog"></i>
+				<div class="red-dot-container">
+					<span class="red-dot red-dot--cog"></span>
+					<i class="fas fa-cog"></i>
+				</div>
 			</div>
 		</header>
-
-		<a href="#" class="friends-display-link">
-			<span class="friends-display-link__info">i</span>
-			<span class="friends-display-link__title"> Friends' Names Display</span>
-			<i class="fas fa-chevron-right chevron--gray fa-sm"></i>
-		</a>
 
 		<main class="main-screen">
 			<div class="user-component">
@@ -76,39 +74,79 @@
 						<h4 class="user-component__name user-component__name--bold">
 							Danny Kim
 						</h4>
-						<!-- <h6 class="user-component__description">
-							Hello, world!
-						</h6> -->
+						<h6 class="user-component__description">
+							+1-80-2783-3090
+							<span class="badge badge--only-border badge--more">!</span>
+						</h6>
 					</div>
 				</div>
 				<div class="user-component__column">
-					<!--  -->
+					<i class="fas fa-envelope-open-text fa-2x"></i>
 				</div>
 			</div>
-
-			<div class="friends-screen__channel">
-				<div class="friends-screen__channel-header">
-					<span>Channel</span>
-					<i class="fas fa-chevron-up chevron--gray fa-sm"></i>
+			<div class="icon-row icon-row--wrap">
+				<div class="icon-row__icon">
+					<i class="far fa-calendar-alt fa-2x"></i>
+					<span>Calendar</span>
 				</div>
-				<div class="user-component">
-					<div class="user-component__column">
+				<div class="icon-row__icon red-dot-container">
+					<i class="fas fa-box-open fa-2x"></i>
+					<span class="red-dot"></span>
+					<span>Talk Drive</span>
+				</div>
+				<div class="icon-row__icon">
+					<i class="far fa-smile-wink fa-2x"></i>
+					<span>Emoticons</span>
+				</div>
+				<div class="icon-row__icon">
+					<i class="fas fa-brush fa-2x"></i>
+					<span>Themes</span>
+				</div>
+				<div class="icon-row__icon">
+					<i class="far fa-user-circle fa-2x"></i>
+					<span>Account</span>
+				</div>
+				<div class="icon-row__icon">
+					<i class="far fa-comments fa-2x"></i>
+					<span>Openchat</span>
+				</div>
+				<div class="icon-row__icon"><!-- dummy --></div>
+				<div class="icon-row__icon"><!-- dummy --></div>
+			</div>
+			<div class="suggestions-screen">
+				<div class="suggestions-screen__title">
+					<span>Suggestions</span>
+				</div>
+				<div class="icon-row icon-row--wrap">
+					<div class="icon-row__icon">
+						<!-- <i class="far fa-calendar-alt fa-2x"></i> -->
 						<img
-							src="img/channel.jpeg"
-							alt="channel icon(ch)"
-							class="user-component__avatar user-component__avatar--sm"
+							src="img/kakao-story.png"
+							alt="kakao-story icon"
+							class="icon-row__image"
 						/>
-						<div class="user-component__text">
-							<h4 class="user-component__name">Channel</h4>
-							<!-- <h6 class="user-component__description">
-								Hello, world!
-							</h6> -->
-						</div>
+						<span>Kakao Story</span>
 					</div>
-					<div class="user-component__column">
-						<span>2</span>
-						<i class="fas fa-chevron-right chevron--gray fa-sm"></i>
+					<div class="icon-row__icon red-dot-container">
+						<!-- <i class="fas fa-box-open fa-2x"></i> -->
+						<img
+							src="img/kakao-friends.png"
+							alt="kakao-friends icon"
+							class="icon-row__image"
+						/>
+						<span>Kakao friends</span>
 					</div>
+					<div class="icon-row__icon">
+						<!-- <i class="far fa-smile-wink fa-2x"></i> -->
+						<img
+							src="img/friends-gem.png"
+							alt="friends-gem icon"
+							class="icon-row__image"
+						/>
+						<span>Friends Gem</span>
+					</div>
+					<div class="icon-row__icon"><!-- dummy --></div>
+					<div class="icon-row__icon"><!-- dummy --></div>
 				</div>
 			</div>
 		</main>
@@ -117,21 +155,21 @@
 			<ul class="nav-list">
 				<li class="nav-list__item">
 					<a href="friends.html">
-						<i class="fas fa-2x fa-user"></i>
+						<i class="far fa-2x fa-user"></i>
 					</a>
 				</li>
-				<li class="nav-list__item badge-container">
+				<li class="nav-list__item">
 					<a href="chats.html">
-						<span class="nav-list__notification badge">1</span>
+						<!-- <span class="nav-list__notification badge">1</span> -->
 						<i class="far fa-2x fa-comment"></i>
 					</a>
 				</li>
 				<li class="nav-list__item">
 					<a href="find.html"> <i class="fas fa-2x fa-search"></i></a>
 				</li>
-				<li class="nav-list__item">
+				<li class="nav-list__item red-dot-container">
 					<a href="more.html">
-						<span class="ellipsis-dot"></span>
+						<span class="red-dot"></span>
 						<i class="fas fa-2x fa-ellipsis-h"></i>
 					</a>
 				</li>

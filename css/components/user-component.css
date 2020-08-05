@@ -2,6 +2,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	margin-bottom: 20px;
 }
 
 .user-component__column:first-child {
@@ -44,6 +45,8 @@
 	margin-top: 6px;
 	color: var(--gray-for-text);
 	font-size: 17px;
+	display: flex;
+	align-items: flex-start;
 }
 
 .user-component__column:last-child {
@@ -68,4 +71,8 @@
 .user-component__addition > .badge {
 	margin-top: 5px;
 	margin-bottom: -5px;
+}
+
+.user-component__column > .fa-envelope-open-text {
+	color: black;
 }
