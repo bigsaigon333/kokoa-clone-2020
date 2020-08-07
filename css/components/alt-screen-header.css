@@ -9,4 +9,21 @@
 .alt-screen-header__title {
 	font-size: 32px;
 	font-weight: 600;
+	/* text-align: center; */
+}
+
+.alt-screen-header__column {
+	width: 33.33%;
+	display: flex;
+}
+.flex-column--first {
+	justify-content: flex-start;
+}
+
+.flex-column--center {
+	justify-content: center;
+}
+
+.flex-column--last {
+	justify-content: flex-end;
 }

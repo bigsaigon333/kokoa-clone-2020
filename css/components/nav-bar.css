@@ -3,7 +3,11 @@
 	justify-content: space-between;
 	position: fixed;
 	bottom: 0;
-	min-width: var(--max-width);
+	/* min-width: var(--max-width); */
+	max-width: var(--max-width);
+	/* width: var(--max-width); */
+	width: 100%;
+	margin: 0 auto;
 	padding: 0 30px;
 	height: 7.5%;
 	background-color: rgb(249, 249, 249);

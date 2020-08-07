@@ -4,7 +4,7 @@
 	margin: 5px;
 	align-items: center;
 	justify-content: space-between;
-	padding: 10px;
+	padding: 5px;
 }
 
 .settings-list__setting:last-child {
@@ -19,7 +19,7 @@
 }
 
 span.setting__item {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .setting__item {
@@ -28,5 +28,5 @@ span.setting__item {
 
 .setting-item-container:last-child {
 	color: var(--gray-for-text);
-	font-size: 24px;
+	font-size: 20px;
 }
