@@ -18,6 +18,8 @@
 
 body {
 	font-family: sans-serif;
+	max-width: var(--max-width);
+	margin: 0 auto;
 }
 
 a {
