@@ -1,0 +1,9 @@
+.alt-screen-header__column > i {
+	margin: 0px 5px;
+}
+
+#chat-body {
+	background-clip: padding-box;
+	background-color: #abc1d1;
+	/* border: 2px solid black; */
+}

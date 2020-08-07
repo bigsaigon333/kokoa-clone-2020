@@ -1,0 +1,32 @@
+.settings-list__setting {
+	display: flex;
+	height: 50px;
+	margin: 5px;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.settings-list__setting:last-child {
+	border-bottom: var(--main-border);
+	padding-bottom: 30px;
+}
+
+.setting-item-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+span.setting__item {
+	font-size: 24px;
+}
+
+.setting__item {
+	margin-right: 15px;
+}
+
+.setting-item-container:last-child {
+	color: var(--gray-for-text);
+	font-size: 24px;
+}
