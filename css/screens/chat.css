@@ -138,6 +138,10 @@
 	box-sizing: border-box;
 	align-items: center;
 	z-index: 1;
+	transition: all 0.5s ease-in-out;
+}
+.typing-form:focus-within {
+	transform: translateY(50px);
 }
 
 .typing-form__column:first-child {
@@ -201,5 +205,5 @@
 }
 .typing-form:focus-within input {
 	width: 105%;
-	transform: translateX(-6%);
+	transform: translateX(-6%) translateY(-50px);
 }
