@@ -4,10 +4,11 @@
 	align-items: center;
 	padding: 5px 3px;
 	font-size: 18px;
-	/* position: fixed;
+	position: fixed;
 	width: 100%;
-	top: 0px; */
+	top: 0px;
 	box-sizing: border-box;
+	max-width: var(--max-width);
 }
 
 .status-bar__column {

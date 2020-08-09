@@ -89,3 +89,20 @@
 	right: 5px;
 	font-size: 15px;
 }
+
+@keyframes heartbeat {
+	0% {
+		transform: none;
+	}
+	60% {
+		color: red;
+		transform: scale(1.5);
+	}
+	100% {
+		transform: none;
+	}
+}
+.open-chat-post__heart-count > .fa-heart {
+	will-change: transform;
+	animation: heartbeat 1.2s ease-in infinite;
+}

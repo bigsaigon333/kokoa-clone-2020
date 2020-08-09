@@ -32,3 +32,28 @@
 	border-top: var(--main-border);
 	color: rgb(180, 180, 180);
 }
+
+@keyframes hideSplashScreen {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+		visibility: hidden;
+		z-index: -1;
+	}
+}
+#splash-screen {
+	background-color: var(--yellow);
+	width: 100vw;
+	height: 100vh;
+	z-index: 999;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: hideSplashScreen 0.3s ease-in-out forwards;
+	animation-delay: 0.6s;
+}

@@ -48,23 +48,80 @@
 			</div>
 		</div>
 
-		<header class="alt-screen-header">
-			<div class="alt-screen-header__column">
+		<header class="alt-screen-header screen-header--fixed">
+			<div class="alt-screen-header__column flex-column--first">
 				<a href="chats.html">
 					<i class="fas fa-angle-left fa-3x"></i>
 				</a>
 			</div>
-			<div class="alt-screen-header__column">
-				<h1 class="alt-screen-header__title">Danny Kim</h1>
+			<div class="alt-screen-header__column flex-column--center">
+				<h1 class="alt-screen-header__title">Danny</h1>
 			</div>
 
-			<div class="alt-screen-header__column">
+			<div class="alt-screen-header__column flex-column--last">
 				<i class="fas fa-2x fa-search"></i>
 				<i class="fas fa-bars fa-2x"></i>
 			</div>
 		</header>
+		<main class="main-screen main-chat">
+			<div class="main-chat__timestamp">
+				Sunday, August 09, 2020
+			</div>
 
-		<main class="main-screen"></main>
+			<div class="message-row">
+				<img
+					class="message__profile-img"
+					src="https://i2.wp.com/dvainsurance.com/wp-content/uploads/profile-img-woman.png?resize=256%2C256&ssl=1"
+					alt="Sue's profile imgae"
+				/>
+				<div class="message-row__content">
+					<span class="message__author"> Nicolas Serrano</span>
+					<div class="message__description">
+						<span class="message__text text--left">
+							Hi!
+						</span>
+						<span class="message__time">
+							21:27
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="message-row message-row--own">
+				<!-- <img
+					class="message__profile-img"
+					src="https://i2.wp.com/dvainsurance.com/wp-content/uploads/profile-img-woman.png?resize=256%2C256&ssl=1"
+					alt="Sue's profile imgae"
+				/> -->
+				<div class="message-row__content">
+					<!-- <span class="message__author"> Nicolas Serrano</span> -->
+					<div class="message__description">
+						<span class="message__text text--right text--yellow">
+							<!-- What's up? -->
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+							voluptates, dolore incidunt sed rerum quis quisquam facere quos
+							tempora, aspernatur soluta maxime tenetur qui sunt odit, maiores
+							velit? Voluptatem, maiores.
+						</span>
+						<span class="message__time">
+							21:27
+						</span>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<form action="#" class="typing-form">
+			<div class="typing-form__column">
+				<i class="far fa-plus-square"></i>
+			</div>
+			<div class="typing-form__column">
+				<input type="text" placeholder="Write a message you want to send" />
+				<i class="far fa-grin-alt"></i>
+				<button>
+					<i class="fas fa-long-arrow-alt-up"></i>
+				</button>
+			</div>
+		</form>
 
 		<script
 			src="https://kit.fontawesome.com/6478f529f2.js"

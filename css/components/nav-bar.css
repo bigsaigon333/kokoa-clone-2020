@@ -1,3 +1,8 @@
+.nav {
+	z-index: 2;
+	background-color: inherit;
+}
+
 .nav-list {
 	display: flex;
 	justify-content: space-between;
@@ -8,7 +13,7 @@
 	/* width: var(--max-width); */
 	width: 100%;
 	margin: 0 auto;
-	padding: 0 30px;
+	padding: 0 15px;
 	height: 7.5%;
 	background-color: rgb(249, 249, 249);
 	border-top: 1px solid rgb(220, 220, 220);
@@ -20,12 +25,63 @@
 	align-items: center;
 	padding: 20px;
 }
-/* .nav-message {
-	position: relative;
-} */
+@keyframes notificationAnimation {
+	0% {
+		transform: none;
+	}
+	50% {
+		/* transform: 0; */
+		transform: translateY(-5px) rotateY(60deg);
+	}
+	100% {
+		transform: none;
+	}
+}
 
 .nav-list__notification {
 	position: absolute;
 	top: 10px;
 	right: 8px;
+	animation: notificationAnimation 1.5s ease-in-out infinite;
+}
+
+@keyframes appearfromBottom {
+	from {
+		opacity: 0;
+	}
+	to {
+		transform: none;
+		opacity: 1;
+	}
+}
+
+.nav-list__item {
+	animation: appearfromBottom 0.4s ease-in-out forwards;
+	transform: translateY(50px);
+	opacity: 0;
+}
+
+.nav-list__item:nth-child(2) {
+	animation-delay: 0.1s;
+}
+
+.nav-list__item:nth-child(3) {
+	animation-delay: 0.2s;
+}
+.nav-list__item:nth-child(4) {
+	animation-delay: 0.3s;
+}
+
+#splash-screen + nav .nav-list__item {
+	animation-delay: 0.5s;
+}
+
+#splash-screen + nav .nav-list__item:nth-child(2) {
+	animation-delay: 0.6s;
+}
+#splash-screen + nav .nav-list__item:nth-child(3) {
+	animation-delay: 0.7s;
+}
+#splash-screen + nav .nav-list__item:nth-child(4) {
+	animation-delay: 0.8s;
 }
